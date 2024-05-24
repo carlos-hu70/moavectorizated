@@ -16,3 +16,7 @@ Compile using `make`.
 # Running LT-MOA*v
 
 To run a single problem use  `./moastarv [graph_file] [start_node] [goal_node] [n_objectives]`. For example: `./moastarv Maps/NY-road-m-t-d.txt 28493 5425 3` or `./moastarv Maps/NY-road-l-d-t-m.txt 36255 28938 4`. 
+
+To run the algorithm, your computer should support AVX-512 instructions:
+1. Run the command: grep avx512 /proc/cpuinfo.
+2. If avx512 flags are present in the output, your CPU supports AVX-512 instructions.
