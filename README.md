@@ -11,7 +11,7 @@ The implementation contained in this package assumes the graph is explicitly giv
 
 # Compilation
 
-Compile using `make`.
+Compile using `make` after `make clean`.
 
 # Running LT-MOA*v
 
